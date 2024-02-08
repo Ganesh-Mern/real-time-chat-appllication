@@ -1,3 +1,4 @@
+import path from "path"
 import express, { json } from "express"
 import dotenv from "dotenv"
 import cookieParser from "cookie-parser"
@@ -9,7 +10,6 @@ import messageRoutes from "./routes/message.routes.js"
 import userRoutes from "./routes/user.routes.js"
 import connectMongoDb from "./db/connectToMongoDb.js";
 import { app, server } from "./socket/socket.js"
-import path from "path"
 // import userRoutes from "./routes/user.routes.js"
 
 
