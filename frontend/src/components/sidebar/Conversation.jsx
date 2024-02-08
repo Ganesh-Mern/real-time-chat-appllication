@@ -23,12 +23,12 @@ const Conversation = ({ conversation, lastIdx, emoji }) => {
         </div>
         <div className="flex flex-col flex-1">
           <div className="flex gap-3 justify-between">
-            <p className="font-bold text-gray-200">{conversation.fullName}</p>
+            <p className="font-bold text-gray-500">{conversation.fullName}</p>
             <span className="text-xl">{emoji}</span>
           </div>
         </div>
       </div>
-      {!lastIdx && <div className="divider my-0 py-0 h-1" />}
+      {!lastIdx && <div className="divider my-0 py-0 " />}
     </>
   );
 };
